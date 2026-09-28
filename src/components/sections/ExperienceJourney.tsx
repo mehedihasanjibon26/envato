@@ -10,7 +10,7 @@ const scenes = [
     title: "Step inside.",
     description:
       "A quiet transition from architecture into a more intimate experience.",
-    video: "/videos/room-reveal.mp4",
+    video: "/envato/videos/room-reveal.mp4",
   },
   {
     id: "estate-journey",
@@ -19,7 +19,7 @@ const scenes = [
     title: "Designed around living.",
     description:
       "Natural light, open proportions and refined details shape every view.",
-    video: "/videos/estate-journey.mp4",
+    video: "/envato/videos/estate-journey.mp4",
   },
   {
     id: "grounds-to-gate",
@@ -28,7 +28,7 @@ const scenes = [
     title: "Beyond the walls.",
     description:
       "The journey continues outdoors, where architecture, landscape and arrival become one.",
-    video: "/videos/grounds-to-gate.mp4",
+    video: "/envato/videos/grounds-to-gate.mp4",
   },
 ];
 

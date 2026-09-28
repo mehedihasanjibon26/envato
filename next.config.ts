@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 
+const repoName = "envato";
+
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
+  output: "export",
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

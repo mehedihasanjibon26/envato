@@ -54,7 +54,7 @@ export default function ConstructionHero() {
           ready ? "opacity-100" : "opacity-0"
         }`}
       >
-        <source src="/videos/hero.mp4" type="video/mp4" />
+        <source src="/envato/videos/hero.mp4" type="video/mp4" />
       </video>
 
       {/* Soft cinematic atmosphere */}

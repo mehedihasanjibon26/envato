@@ -116,7 +116,7 @@ export default function RoomReveal() {
             ready ? "opacity-100" : "opacity-0"
           }`}
         >
-          <source src="/videos/room-reveal.mp4" type="video/mp4" />
+          <source src="/envato/videos/room-reveal.mp4" type="video/mp4" />
         </video>
 
         {/* Readability grading */}
