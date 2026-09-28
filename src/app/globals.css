@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: 10 10 10;
+  --color-foreground: 245 245 245;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(var(--color-background));
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: rgb(var(--color-background));
+  color: rgb(var(--color-foreground));
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+@keyframes storyReveal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+    filter: blur(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    filter: blur(0);
+  }
+}
+@keyframes journeyText {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 32px, 0);
+    filter: blur(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    filter: blur(0);
+  }
+}
